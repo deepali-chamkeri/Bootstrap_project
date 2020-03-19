@@ -1,0 +1,98 @@
+body{
+	background: url(images/background.jpg);
+	margin: 0;
+
+	}
+*{
+	margin: 0px; /*the tags which are by default generated with margins will be disabled:* is used to apply css to all elements*/
+
+}
+
+
+.links button{
+	font-size: 12px;
+	width: 40%;
+	margin: 5% 0% 0% 5%;
+	padding: 5px;
+}
+
+
+
+.item > img {
+      /*width: 70%;*/
+      /*height: 20px;*/
+      margin: auto;
+      }
+
+.carousel-inner > .item > img
+ {
+       width:680px;
+       height:360px;
+ }
+ 
+#stevejobs .col-md-3{
+	/*border: 1px solid red;*/
+	background: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+	
+
+ }
+ #stevejobs img{
+ 	/*margin: 10px 20px 0px 40px;*/
+ 	margin: 0 auto;
+ 	padding-top: 10px;
+
+ 	height: 150px;
+ 	border-radius: 20px;
+
+ }
+.quote{
+ 	
+ 	font-weight: bolder;
+ 	/*width:70%;*/
+
+ 	font-size: 15px;
+ 	margin-left: 30px;
+ }
+ .program{
+ 	background: white;
+ 	margin-top: 10px;
+ }
+ .textslider{
+ 	background: #fff;
+ 	border-radius: 10px;
+ 	/*margin-left: 10px;*/
+ 	/*border: 1px solid;*/
+ }
+.therapy{
+	background: #fff;
+	/*border: 1px solid;*/
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.therapy a{
+	text-decoration: none;
+}
+
+
+.blog ,.link ,.keepintouch{
+	/*border: 1px solid;*/
+	background: black;
+	margin-top: 10px;
+}
+.link ul a{
+	color: #ccc;
+	text-decoration: none;
+}
+.bottom{
+	text-align: center;
+}
+.blog:hover,.link:hover,.keepintouch:hover{
+	background: #F2F5A9;
+}
+.btn{
+    white-space:normal;
+    word-wrap:break-word; 
+}
